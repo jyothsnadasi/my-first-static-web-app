@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Font Delivery</title>
+    <style>
+	@import url('https://fonts.cdnfonts.com/css/revivalia');
+        /* Add some basic CSS for readability */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        /* Add the @font-face rule to specify the font source */
+        @font-face {
+            font-family: 'REVIVALIA'; /* Name your font */
+            src: url('uniquefont.woff2') format('woff2'); /* Specify the font file path and format */
+        }
+
+        /* Use the unique font for the text */
+        .unique-text {
+            font-family: 'REVIVALIA', sans-serif;
+            font-size: 24px; /* Adjust the font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>Web Font Delivery</h1>
+    <p>
+    	When it comes to delivering fonts to the client's browser while building a website, there are several strategies to consider. One effective method is the use of web fonts, which enable fonts to be fetched from a server as needed when a page is accessed.
+    </p>
+    <p>
+    	To make use of a web font, it must first undergo conversion into a web-friendly format such as WOFF or WOFF2. Following that, the font files can be hosted on a web server, just like any other web asset. In the website's CSS, the web font can be designated using the @font-face rule, specifying the font files to be loaded.
+    </p>
+    <p>
+    	As the browser requests the page, it automatically downloads the required web font files alongside other site assets. This ensures that the browser has the fonts ready to go for rendering text with the desired typography. The beauty of web fonts lies in their ability to introduce any font available on the web, breaking free from the constraints of default system fonts.
+    	This approach offers a straightforward means of delivering a tailored font experience. It's important to note that it can increase the overall page load size, so it's advisable to employ optimization techniques like font subsetting. Nonetheless, web fonts provide exceptional control over typography, a valuable asset for achieving your branding and design goals on the web.
+    </p>
+
+    <!-- Use the unique font for the text -->
+    <p>
+        Here's some text that uses our unique font:
+        <span class="unique-text">This is the unique font style!</span>
+    </p>
+
+    <!-- You will need to upload 'uniquefont.woff2' to your web server for this to work -->
+
+</body>
+</html>
