@@ -1,0 +1,92 @@
+body {
+    font-family: "Arial";
+    margin: 20px;
+    padding: 20px;
+    color: #808080;
+    background-image: url('photo.jpeg');
+    background-size: 1500px 4000px;
+    background-repeat: no-repeat;
+}
+
+
+.title {
+    font-family: "Adobe Arabic";
+    font-size: 32px;
+    color: #000000;
+}
+
+.section-heading {
+    font-family: "Agency FB";
+    font-size: 24px;
+    color: #000000;
+}
+
+.subsection-heading {
+    font-family: "Amezone BT";
+    font-size: 20px;
+    color: #00008B;
+}
+
+.para1-text {
+    font-family: "Brush Script MT";
+    font-style: italic;
+    font-size: 16px;
+    color: #008000;
+}
+
+.para2-text {
+    font-family: "Palatino Linotype";
+    font-size: 16px;
+    color: #556B2F;
+}
+
+.para3-text {
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-size: 16px;
+    color: #9370DB;
+}
+
+.para4-text {
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    color: #800000;
+}
+
+.para5-text {
+    font-family: "Copperplate Gothic Light";
+    font-style: italic;
+    font-size: 16px;
+    color: #556B2F;
+}
+
+.para6-text {
+    font-family: "Chiller";
+    font-size: 16px;
+    color: #800000;
+}
+
+.para7-text {
+    font-family: "Algerian";
+    font-size: 16px;
+    color: #00008B;
+}
+
+.addendum-para {
+    font-family: "Calibri";
+    font-size: 14px;
+    color: #FF1493;
+}
+
+.addendum-list-item {
+    font-family: "Verdana";
+    font-size: 14px;
+    color: #FFD700;
+}
+
+.addendum {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #000000;
+    color: #FF4500;
+}
