@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interactive Website</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div id="ball"></div>
+        <h1 id="headerTitle">Welcome to My Interactive Website</h1>
+    </header>
+
+    <!-- Menu Side-Bar -->
+    <aside class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main>
+        <div id="interactiveContent">
+            <button onclick="redirectToAnotherPage()">go GOOGLE</button>
+        </div>
+		<div id="interactiveContent">
+            <button onclick="rollDice()">Roll the Dice</button>
+            <img id="diceImage" src="dice.jpg" alt="Dice Roll Animation">
+			<p><b>You have rolled</b></p>
+            <input type="text" id="resultBox" readonly>
+
+        </div>
+    </main>
+    
+    <!-- Advertisement -->
+    <section class="advertisement">
+	    <h3>Advertisement!</h3>
+		<p>Its the season:)<p>
+	    <p>Hurru up 50%off !Hurru up 50%off!Hurru up 50%off!</p>
+        <a href="https://www.amazon.com/National-Tree-Valley-Spruce-NRV7-300-70/dp/B01ISVS2XY/ref=sr_1_4_sspa?crid=DIPPDBBJB8W&keywords=christmas%2Btrees&qid=1699905409&sprefix=christmas%2Btrees%2Caps%2C147&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" target="_blank">
+            <img src="adddoll.jpg" alt="Product Advertisement">
+        </a>
+    </section>
+    
+	
+    <!-- Footer -->
+    <footer>
+	<p style="text-decoration: underline;"><b>ADDENDUM</b></p>
+    <p>This website showcases various interactive elements, including:</p>
+    <ol>
+        <li>Buttons that redirect to different pages.</li>
+        <li>A dice roller feature that generates random numbers.</li>
+    </ol>
+    <p>The Amazon advertisement is a placeholder and can be replaced with an actual ad relevant to your content.</p>
+</footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
