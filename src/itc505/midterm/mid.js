@@ -8,7 +8,7 @@ function startGame() {
     document.getElementById('user-input').disabled = false;
     document.getElementById('user-input').focus();
     document.getElementById('user-input-label').innerText = "Enter your choice:";
-    document.getElementById('user-input').placeholder = "Treasure Hunt / Genie Hunt";
+    document.getElementById('user-input').placeholder = "choose between the above two";
     document.getElementById('user-input').addEventListener("keyup", function(event) {
         if (event.keyCode === 13) {
             event.preventDefault();
