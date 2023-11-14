@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+	background-image: url(bg.jpg);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    position: relative;
+	background-image: url(bg.jpg);
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: jump 2s linear infinite;
+}
+
+@keyframes jump {
+    0%, 100% {
+        left: 0;
+    }
+    50% {
+        left: calc(100% - 20px);
+    }
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.advertisement {
+    float: right; 
+    width: 20%;
+    padding: 10px;
+}
+
+.advertisement img {
+    max-width: 80%;
+    height: auto;
+    cursor: pointer;
+	border: 2px solid #333;
+}
+.advertisement h5 {
+    text-align: right; 
+    margin-bottom: 10px; 
+}
+
+footer {
+    clear: both;
+    
+    padding: 20px;
+    background-image: url(bg.jpg);
+}
+
+#diceImage{
+	height: 200px;
+	width:200px;
+}
+#resultBox{
+	width: 200px;
+	height: 200px;
+	padding: 30px;
+	font-size: 100px;
+}
