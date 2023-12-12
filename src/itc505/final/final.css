@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  align-items: center;
+  background-image: url('https://img.freepik.com/premium-photo/abstract-blur-beautiful-pastel-color-summer-concept-blurred-defocused-effect-background_7182-23.jpg');  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  margin: 0; 
+  padding: 0; 
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#game-container {
+  text-align: center;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  background-color: #E6CCB2;
+  border: #7F5539;
+  cursor: pointer;
+}
+
+.is-off {
+  background-color: #7F5539;
+}
+
+#info {
+  margin-top: 20px;
+}
+
+#new-game-btn {
+  padding: 20px;
+  cursor: pointer;
+  font-family: Copperplate Gothic Light;
+  background-color: #7F5539;
+  font-size: 30px;
+}
+
+#target-moves{
+font-family: Copperplate Gothic Light;
+font-size: 20px;
+}
+#remaining-moves{
+font-family: Copperplate Gothic Light;
+font-size: 20px;
+}
+
+#heading{
+font-family: Copperplate Gothic Light;	
+}
