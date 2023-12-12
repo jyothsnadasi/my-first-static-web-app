@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Addendum</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    h3 {
+      color: #555;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+    <h1>Addendum</h1>
+    
+    <!-- Game Process Section -->
+    <section>
+      <h2>Game Process</h2>
+      <ul>
+        <li>
+          <p><strong>Understanding Lights Out Game Rules:</strong> I have thorough understanding of the Lights Out Game rules was essential. The game involves a grid of lights that can be turned on or off. Clicking a light toggles its state and the state of adjacent lights.</p>
+        </li>
+        <li>
+          <p><strong>Choosing a Representation:</strong> The decision to represent the game board using a 2D array was made. Each cell in the array corresponds to a light on the game board, simplifying the tracking of on/off states.</p>
+        </li>
+        <li>
+          <p><strong>Implementing Game Logic:</strong> Functions like toggleLights, makeMove, and checkGameOutcome were implemented to handle game logic. Toggling lights, checking for wins, and tracking moves were crucial aspects of the logic.</p>
+        </li>
+        <li>
+          <p><strong>Visual Design Considerations:</strong> CSS styling was applied to enhance the visual appeal of the game. Careful consideration was given to the background image, fonts, and colors to create an engaging and aesthetically pleasing design.</p>
+        </li>
+        <li>
+          <p><strong>Responsive Design:</strong> Responsive design techniques were applied to ensure the game is visually appealing on various devices and screen sizes.</p>
+        </li>
+        <li>
+          <p><strong>Random Solvable Initial Configuration:</strong> Generating a random solvable initial configuration was a challenge. Simulating random clicks to create the starting state required careful consideration to ensure the puzzle was always solvable.</p>
+        </li>
+        <li>
+          <p><strong>Debugging and Optimization:</strong> Debugging the toggleLights function was crucial to maintaining the game's logic. The code was optimized for readability and maintainability.</p>
+        </li>
+        <li>
+          <p><strong>Final Testing:</strong> The final implementation was thoroughly tested to ensure a smooth and bug-free gameplay experience. Testing involved checking for win conditions, maximum moves, and responsiveness.</p>
+        </li>
+      </ul>
+    </section>
+    
+    <!-- HTML Structure Section -->
+    <section>
+      <h2>HTML Structure</h2>
+      <p>The game is structured using HTML to create a container for the game, a heading, the game board, and an information section. Buttons and links are used for user interaction, providing a clean and organized layout.</p>
+    </section>
+
+    <!-- CSS Styling Section -->
+    <section>
+      <h2>CSS Styling</h2>
+      <p>The game's visual appeal is enhanced using CSS. The background image, fonts, and colors are carefully chosen to create an aesthetically pleasing experience. Responsive design techniques are applied to ensure the game looks good on different devices.</p>
+    </section>
+
+    <!-- JavaScript Implementation Section -->
+    <section>
+      <h2>JavaScript Implementation</h2>
+      <p>JavaScript is used to dynamically create the game board, handle user clicks, and update the game state. Functions like toggleLights, checkGameOutcome, and resetBoard are implemented to ensure smooth gameplay. The code is organized, commented, and follows best practices for readability and maintainability.</p>
+
+      <!-- JavaScript Functions Section -->
+      <h3>JavaScript Functions</h3>
+      <ul>
+        <li>
+          <p><strong>initializeBoard():</strong> This function sets up the initial game board by dynamically creating cells. Each cell is assigned a click event listener, linking it to the makeMove function.</p>
+        </li>
+        <li>
+          <p><strong>makeMove(row, col):</strong> Handles player moves. Checks if the game is won or the maximum moves are reached. Toggles lights and updates the game state accordingly.</p>
+        </li>
+        <li>
+          <p><strong>toggleLights(row, col):</strong> Toggles the state of the clicked cell and adjacent cells. Updates the board to reflect the changes.</p>
+        </li>
+        <li>
+          <p><strong>updateBoard():</strong> Updates the visual representation of the game board based on the current state of the lightsOutArray.</p>
+        </li>
+        <li>
+          <p><strong>checkGameOutcome():</strong> Checks if the game is won or if the maximum moves are reached. Displays alerts accordingly.</p>
+        </li>
+        <li>
+          <p><strong>checkWin():</strong> Checks if the game is won by verifying if all lights are turned off.</p>
+        </li>
+        <li>
+          <p><strong>resetBoard():</strong> Resets the game board by reloading the page. Used for starting a new game.</p>
+        </li>
+        <li>
+          <p><strong>generateLightsOutArray(size):</strong> Generates a 2D array representing the game board with random initial light configurations. Ensures the game starts in a solvable state.</p>
+        </li>
+        <li>
+          <p><strong>updateMoveCount():</strong> Updates the displayed count of remaining moves on the game board.</p>
+        </li>
+        <li>
+          <p><strong>Random Initialization:</strong> Randomly initializes the game board by simulating multiple clicks to provide a solvable initial configuration.</p>
+        </li>
+        <li>
+          <p><strong>Event Listener for New Game Button:</strong> Adds an event listener to the "New Game" button for calling the resetBoard function when clicked.</p>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+
+</body>
+</html>
